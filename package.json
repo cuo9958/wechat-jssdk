@@ -1,0 +1,26 @@
+{
+    "name": "wechat-jssdk-min",
+    "version": "1.0.0",
+    "description": "这是一个nodejs下简单易用的jssdk工具库.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cuo9958/wechat-jssdk.git"
+    },
+    "keywords": [
+        "wechat",
+        "jssdk"
+    ],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cuo9958/wechat-jssdk/issues"
+    },
+    "homepage": "https://github.com/cuo9958/wechat-jssdk#readme",
+    "dependencies": {
+        "node-fetch": "^2.1.2"
+    }
+}
