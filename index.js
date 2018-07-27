@@ -34,7 +34,7 @@ export default class {
      * 远程get请求
      * @param {*} url 
      */
-    curl(url) {
+    async curl(url) {
         const response = await fetch(url);
         const json = await response.json();
         return json;
@@ -42,7 +42,7 @@ export default class {
     /**
      * 获取token
      */
-    getToken() {
+    async getToken() {
         let token = await this.get_cache("wechat_token");
         if (token) return token;
 

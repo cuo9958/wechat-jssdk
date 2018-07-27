@@ -1,6 +1,6 @@
 {
     "name": "wechat-jssdk-min",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "这是一个nodejs下简单易用的jssdk工具库.",
     "main": "index.js",
     "scripts": {
